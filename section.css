@@ -1,0 +1,9 @@
+ body {
+            padding: 20px;
+        }
+        .page-header {
+            margin-bottom: 20px;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }

@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #004d40;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    gap: 15px;
+}
+
+.nav-item a {
+    padding: 13px;
+}
+
+.header {
+    background-image: url('cemetery.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+.header .btn {
+    background-color: #004d40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-body {
+    height: 150px;
+}
+
+.btn-read-more {
+    background-color: #004d40;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.mission {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.services .icon {
+    font-size: 48px;
+    color: #004d40;
+}
+
+.footer {
+    background-color: #004d40;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .newsletter input {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.footer .newsletter button {
+    background-color: #fff;
+    color: #004d40;
+    border: none;
+    padding: 5px 10px;
+}
+
+.container .row {
+    justify-content: center;
+}
+
+.gallery-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+.navbar.scrolled {
+    background-color: #003d33; /* Darker color when scrolled */
+    transition: background-color 0.3s;
+}
