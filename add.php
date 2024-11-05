@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Add New Person</title>
@@ -34,6 +35,10 @@
                 <label for="section" class="form-label">Section:</label>
                 <select class="form-control" id="section">
                     <option>Select Section</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
                 </select>
             </div>
             <div class="form-group">
@@ -54,10 +59,13 @@
                     <input type="date" class="form-control" id="died">
                 </div>
             </div>
+            
             <div class="form-group">
                 <label for="location" class="form-label">Location:</label>
                 <select class="form-control" id="location">
                     <option>Select Location</option>
+                    <option>Minglanilla Cebu</option>
+                    <option>Lower Calajoan</option>
                 </select>
             </div>
             <button type="submit" class="btn btn-primary">Save</button>
